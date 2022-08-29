@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid grey;
+  width: 400px;
+  gap: 15px;
+  padding: 10px;
+}
+
+.operators {
+  display: flex;
+  gap: 6px;
+}
+
+.bottom-container {
+  display: flex;
+  gap: 6px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.equal {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 80px;
+  border: 1px solid grey;
+}
+
+.operator {
+  width: 80px;
+  border: 1px solid grey;
+  font-size: 2em;
+
+}
+
+.digit,
+.dot,
+.clear {
+  width: 80px;
+  border: 1px solid grey;
+  font-size: 2em;
+  gap: 6px;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 325px;
+  height: 50px;
+  border: 1px solid grey;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 10px;
+}
